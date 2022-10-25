@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>anaconda中用命令提示符创建虚拟环境</title>
+      <link href="/2022/10/25/%E5%9C%A8anaconda%E4%B8%AD%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/"/>
+      <url>/2022/10/25/%E5%9C%A8anaconda%E4%B8%AD%E5%88%9B%E5%BB%BA%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83/</url>
+      
+        <content type="html"><![CDATA[<p>一、验证<br>1.python<br>验证Python环境变量，输入python,输出版本号，表明设置成功<br>2.conda<br>在命令提示符窗口中输入conda –version，如果输出版本号，表明设置成功。<br>3.更新升级工具包<br>为了避免错误，输入conda upgrade –all把所有的工具包进行升级。<br>二、创建虚拟环境<br>1、查看已经安装的python环境<code>conda env list</code><br><img src="https://img-blog.csdnimg.cn/b97eab5f267e48bb856af189e73a586d.png" alt="在这里插入图片描述"><br>2、创建新的虚拟环境 conda create -n  my_python_env  python=3.8<br><img src="https://img-blog.csdnimg.cn/c69e0c179d6248a4bac8e1398c200700.png" alt="在这里插入图片描述"><br>输入y，同意创建<br><img src="https://img-blog.csdnimg.cn/4d342cb66d374e5fb62fe6bfbb66030d.png" alt="在这里插入图片描述"><br>到这里，表示环境创建成功<br><img src="https://img-blog.csdnimg.cn/2f65c46d8d4d41a09b628070383f595d.png" alt="在这里插入图片描述"><br>3.激活环境 activate  my_python_env,激活环境<br><img src="https://img-blog.csdnimg.cn/339ccf7dbea64645b783bda502319af1.png" alt="在这里插入图片描述"><br>4.退出环境 deactivate<br><strong>anaconda中使用图形化界面创建虚拟环境</strong><br><img src="https://img-blog.csdnimg.cn/77eacf2eb1384d3080f41cd37ac7fe5e.png" alt="在这里插入图片描述"><br>5.删除虚拟环境<br>输入 <code>conda remove -n  my_python_env  --all</code><br><img src="https://img-blog.csdnimg.cn/a46714adeb354f29b03a14a19d653206.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/ab9589a2d867477ebc14dd17cfb9c256.png" alt="在这里插入图片描述"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题杂记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> anaconda </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2022/10/19/hello-world/"/>
       <url>/2022/10/19/hello-world/</url>
